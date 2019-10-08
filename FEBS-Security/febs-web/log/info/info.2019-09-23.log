@@ -1,0 +1,413 @@
+17:00:30.692 sms [main] INFO  cc.mrbird.FebsApplication - Starting FebsApplication on LAPTOP-OI23LKGJ with PID 17764 (started by llf5 in D:\workTools\aop使用\FEBS-Security\febs-web)
+17:00:30.696 sms [main] INFO  cc.mrbird.FebsApplication - No active profile set, falling back to default profiles: default
+17:00:30.771 sms [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@40cb8df7: startup date [Mon Sep 23 17:00:30 GMT+08:00 2019]; root of context hierarchy
+17:00:31.937 sms [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:00:32.435 sms [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+17:00:32.523 sms [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+17:00:32.524 sms [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+17:00:32.524 sms [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+17:00:32.524 sms [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+17:00:32.525 sms [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+17:00:32.525 sms [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+17:00:32.525 sms [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+17:00:32.555 sms [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+17:00:32.626 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncExecutorPoolConfig' of type [cc.mrbird.common.config.AsyncExecutorPoolConfig$$EnhancerBySpringCGLIB$$62447578] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:00:32.667 sms [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+17:00:32.753 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d70aea31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:00:32.950 sms [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+17:00:32.952 sms [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+17:00:32.957 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [cc.mrbird.common.config.RedisConfig$$EnhancerBySpringCGLIB$$bbeee048] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:00:33.017 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$6fb8b26b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:00:33.028 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:00:33.031 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@76ad6715' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:00:33.038 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$948d551d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:00:33.052 sms [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:00:34.082 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+17:00:34.100 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+17:00:34.120 sms [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:00:34.120 sms [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:00:34.130 sms [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_161\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:/Program Files/Java/jdk1.8.0_161/jre/bin/server;D:/Program Files/Java/jdk1.8.0_161/jre/bin;D:/Program Files/Java/jdk1.8.0_161/jre/lib/amd64;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\IDM Computer Solutions\UltraEdit;D:\Program Files\nodejs;D:\Program Files\nodejs\node_global\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;d:\Users\llf5\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\llf5\AppData\Local\GitHubDesktop\bin;D:\Program Files\nodejs\node_global;;D:\tools\developTools\eclipse;;.]
+17:00:34.314 sms [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:00:34.314 sms [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3543 ms
+17:00:36.204 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:00:36.204 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'sessionRepositoryFilter' to: [/*]
+17:00:36.204 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:00:36.205 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:00:36.205 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:00:36.205 sms [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+17:00:36.205 sms [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'xssFilter' to urls: [/*]
+17:00:36.206 sms [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:00:36.241 sms [localhost-startStop-1] INFO  cc.mrbird.security.xss.XssFilter - ------------ xss filter init ------------
+17:00:36.603 sms [main] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Starting...
+17:00:37.618 sms [main] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Start completed.
+17:00:37.694 sms [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+17:00:37.717 sms [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+17:00:37.717 sms [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+17:00:37.725 sms [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+17:00:37.729 sms [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+17:00:37.731 sms [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'MyScheduler' with instanceId 'LAPTOP-OI23LKGJ1569229237696'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+17:00:37.732 sms [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'MyScheduler' initialized from an externally provided properties instance.
+17:00:37.732 sms [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+17:00:37.736 sms [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@420cd102
+17:00:37.847 sms [main] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.quartz.dao.JobMapper.queryList
+17:00:37.847 sms [main] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 70 ms
+17:00:37.847 sms [main] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> select job_id jobId,bean_name beanName,method_name methodName, params,cron_expression cronExpression,status,remark,create_time createTime from t_job order by job_id
+17:00:38.695 sms [main] INFO  cc.mrbird.web.service.InitService - clean up spring session in redis
+17:00:38.915 sms [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService  'taskExecutor'
+17:00:39.125 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:00:39.510 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@40cb8df7: startup date [Mon Sep 23 17:00:30 GMT+08:00 2019]; root of context hierarchy
+17:00:39.990 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/file/download]}" onto public void cc.mrbird.web.controller.base.FileController.fileDownload(java.lang.String,java.lang.Boolean,javax.servlet.http.HttpServletResponse) throws java.io.IOException,cc.mrbird.common.exception.FileDownloadException
+17:00:39.993 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/redis/get]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.base.RedisController.get(java.lang.String)
+17:00:39.993 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/redis/keys]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.base.RedisController.keys(java.lang.String)
+17:00:39.993 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/redis/set]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.base.RedisController.set(java.lang.String)
+17:00:39.993 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/redis/exists]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.base.RedisController.exists(java.lang.String)
+17:00:39.994 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/redis/info]}" onto public java.lang.String cc.mrbird.web.controller.base.RedisController.getRedisInfo(org.springframework.ui.Model)
+17:00:39.994 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/redis/keysSize]}" onto public java.lang.String cc.mrbird.web.controller.base.RedisController.getKeysSize()
+17:00:39.994 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/redis/memoryInfo]}" onto public java.lang.String cc.mrbird.web.controller.base.RedisController.getMemoryInfo()
+17:00:39.994 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/redis/pttl]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.base.RedisController.pttl(java.lang.String)
+17:00:39.995 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/redis/pexpire]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.base.RedisController.pexpire(java.lang.String)
+17:00:39.995 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/redis/terminal]}" onto public java.lang.String cc.mrbird.web.controller.base.RedisController.redisTerminal(org.springframework.ui.Model)
+17:00:39.995 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/redis/del]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.base.RedisController.del(java.lang.String)
+17:00:39.996 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/article]}" onto public java.lang.String cc.mrbird.web.controller.others.ArticleController.index()
+17:00:39.996 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/article/query]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.others.ArticleController.queryArticle(java.lang.String)
+17:00:39.998 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/movie/hot]}" onto public java.lang.String cc.mrbird.web.controller.others.MovieController.movieHot()
+17:00:39.998 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/movie/getMovieComing]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.others.MovieController.getMovieComing()
+17:00:39.998 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/movie/coming]}" onto public java.lang.String cc.mrbird.web.controller.others.MovieController.movieComing()
+17:00:39.999 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/movie/detail]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.others.MovieController.getDetail(java.lang.String)
+17:00:39.999 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/movie/comments]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.others.MovieController.getComments(java.lang.String)
+17:00:39.999 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/movie/getMovieHot]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.others.MovieController.getMoiveHot()
+17:00:40.000 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/weather/query]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.others.WeatherController.queryWeather(java.lang.String)
+17:00:40.000 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/weather]}" onto public java.lang.String cc.mrbird.web.controller.others.WeatherController.weather()
+17:00:40.002 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/job]}" onto public java.lang.String cc.mrbird.web.controller.quartz.JobController.index()
+17:00:40.002 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/job/getSysCronClazz]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.quartz.JobController.getSysCronClazz(cc.mrbird.quartz.domain.Job)
+17:00:40.003 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/job/csv]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.quartz.JobController.jobCsv(cc.mrbird.quartz.domain.Job)
+17:00:40.003 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/job/delete]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.quartz.JobController.deleteJob(java.lang.String)
+17:00:40.003 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/job/pause]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.quartz.JobController.pauseJob(java.lang.String)
+17:00:40.003 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/job/add]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.quartz.JobController.addJob(cc.mrbird.quartz.domain.Job)
+17:00:40.004 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/job/resume]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.quartz.JobController.resumeJob(java.lang.String)
+17:00:40.004 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/job/checkCron]}" onto public boolean cc.mrbird.web.controller.quartz.JobController.checkCron(java.lang.String)
+17:00:40.004 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/job/list]}" onto public java.util.Map<java.lang.String, java.lang.Object> cc.mrbird.web.controller.quartz.JobController.jobList(cc.mrbird.common.domain.QueryRequest,cc.mrbird.quartz.domain.Job)
+17:00:40.005 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/job/update]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.quartz.JobController.updateJob(cc.mrbird.quartz.domain.Job)
+17:00:40.005 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/job/getJob]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.quartz.JobController.getJob(java.lang.Long)
+17:00:40.007 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/job/excel]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.quartz.JobController.jobExcel(cc.mrbird.quartz.domain.Job)
+17:00:40.007 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/job/run]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.quartz.JobController.runJob(java.lang.String)
+17:00:40.008 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jobLog]}" onto public java.lang.String cc.mrbird.web.controller.quartz.JobLogController.index()
+17:00:40.009 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jobLog/excel]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.quartz.JobLogController.jobLogExcel(cc.mrbird.quartz.domain.JobLog)
+17:00:40.009 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jobLog/csv]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.quartz.JobLogController.jobLogCsv(cc.mrbird.quartz.domain.JobLog)
+17:00:40.009 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jobLog/list]}" onto public java.util.Map<java.lang.String, java.lang.Object> cc.mrbird.web.controller.quartz.JobLogController.jobLogList(cc.mrbird.common.domain.QueryRequest,cc.mrbird.quartz.domain.JobLog)
+17:00:40.010 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jobLog/delete]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.quartz.JobLogController.deleteJobLog(java.lang.String)
+17:00:40.010 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/access/deny/403]}" onto public java.lang.String cc.mrbird.web.controller.security.ExceptionController.accessDeny()
+17:00:40.012 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mobile/bind],methods=[GET]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.security.MobileController.mobileBind(java.lang.String)
+17:00:40.012 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mobile/unbind],methods=[GET]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.security.MobileController.mobileUnbind(java.lang.String)
+17:00:40.013 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/session/invalid]}" onto public void cc.mrbird.web.controller.security.SessionController.sessionInvalid(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.security.core.Authentication) throws java.io.IOException
+17:00:40.013 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/session/active],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> cc.mrbird.web.controller.security.SessionController.getAllSession(javax.servlet.http.HttpServletRequest)
+17:00:40.013 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/session]}" onto public java.lang.String cc.mrbird.web.controller.security.SessionController.online()
+17:00:40.014 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/session/kickout]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.security.SessionController.kickOut(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:00:40.015 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/social],methods=[GET]}" onto public java.lang.String cc.mrbird.web.controller.security.SocialController.socialIndex(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model) throws java.io.IOException
+17:00:40.015 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/social/bind/success],methods=[GET]}" onto public java.lang.String cc.mrbird.web.controller.security.SocialController.socialBindSuccess(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:00:40.016 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/social/unbind/success],methods=[GET]}" onto public java.lang.String cc.mrbird.web.controller.security.SocialController.socialUnbindSuccess()
+17:00:40.016 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/social/regist],methods=[GET]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.security.SocialController.socialRegist(javax.servlet.http.HttpServletRequest,cc.mrbird.system.domain.MyUser)
+17:00:40.016 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/social/bind],methods=[GET]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.security.SocialController.socialBind(javax.servlet.http.HttpServletRequest,cc.mrbird.system.domain.MyUser,java.lang.String)
+17:00:40.017 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sms/code],methods=[GET]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.security.ValidateCodeController.createSmsCode(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+17:00:40.017 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/image/code],methods=[GET]}" onto public void cc.mrbird.web.controller.security.ValidateCodeController.createCode(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+17:00:40.018 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept]}" onto public java.lang.String cc.mrbird.web.controller.system.DeptController.index()
+17:00:40.019 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/add]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.DeptController.addRole(cc.mrbird.system.domain.Dept)
+17:00:40.019 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/excel]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.DeptController.deptExcel(cc.mrbird.system.domain.Dept)
+17:00:40.019 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/getDept]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.DeptController.getDept(java.lang.Long)
+17:00:40.019 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/list]}" onto public java.util.List<cc.mrbird.system.domain.Dept> cc.mrbird.web.controller.system.DeptController.deptList(cc.mrbird.system.domain.Dept)
+17:00:40.020 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/tree]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.DeptController.getDeptTree()
+17:00:40.020 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/checkDeptName]}" onto public boolean cc.mrbird.web.controller.system.DeptController.checkDeptName(java.lang.String,java.lang.String)
+17:00:40.020 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/delete]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.DeptController.deleteDepts(java.lang.String)
+17:00:40.020 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/update]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.DeptController.updateRole(cc.mrbird.system.domain.Dept)
+17:00:40.021 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/csv]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.DeptController.deptCsv(cc.mrbird.system.domain.Dept)
+17:00:40.022 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dict]}" onto public java.lang.String cc.mrbird.web.controller.system.DictController.index()
+17:00:40.023 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dict/getDict]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.DictController.getDict(java.lang.Long)
+17:00:40.023 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dict/update]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.DictController.updateDict(cc.mrbird.system.domain.Dict)
+17:00:40.024 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dict/csv]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.DictController.dictCsv(cc.mrbird.system.domain.Dict)
+17:00:40.024 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dict/excel]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.DictController.dictExcel(cc.mrbird.system.domain.Dict)
+17:00:40.024 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dict/list]}" onto public java.util.Map<java.lang.String, java.lang.Object> cc.mrbird.web.controller.system.DictController.dictList(cc.mrbird.common.domain.QueryRequest,cc.mrbird.system.domain.Dict)
+17:00:40.025 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dict/add]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.DictController.addDict(cc.mrbird.system.domain.Dict)
+17:00:40.025 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dict/delete]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.DictController.deleteDicts(java.lang.String)
+17:00:40.026 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/log]}" onto public java.lang.String cc.mrbird.web.controller.system.LogController.index()
+17:00:40.026 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/log/excel]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.LogController.logExcel(cc.mrbird.system.domain.SysLog)
+17:00:40.027 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/log/csv]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.LogController.logCsv(cc.mrbird.system.domain.SysLog)
+17:00:40.027 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/log/list]}" onto public java.util.Map<java.lang.String, java.lang.Object> cc.mrbird.web.controller.system.LogController.logList(cc.mrbird.common.domain.QueryRequest,cc.mrbird.system.domain.SysLog)
+17:00:40.027 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/log/delete]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.LogController.deleteLogss(java.lang.String)
+17:00:40.028 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index],methods=[GET]}" onto public java.lang.String cc.mrbird.web.controller.system.LoginController.index(org.springframework.security.core.Authentication,org.springframework.ui.Model)
+17:00:40.029 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public void cc.mrbird.web.controller.system.LoginController.success(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+17:00:40.029 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[GET]}" onto public java.lang.String cc.mrbird.web.controller.system.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:00:40.030 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu]}" onto public java.lang.String cc.mrbird.web.controller.system.MenuController.index()
+17:00:40.031 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu/menuButtonTree]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.MenuController.getMenuButtonTree()
+17:00:40.031 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu/list]}" onto public java.util.List<cc.mrbird.system.domain.Menu> cc.mrbird.web.controller.system.MenuController.menuList(cc.mrbird.system.domain.Menu)
+17:00:40.031 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu/tree]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.MenuController.getMenuTree()
+17:00:40.031 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu/menu]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.MenuController.getMenu(java.lang.String)
+17:00:40.032 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu/getMenu]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.MenuController.getMenu(java.lang.Long)
+17:00:40.032 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu/getUserMenu]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.MenuController.getUserMenu(java.lang.String)
+17:00:40.032 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu/checkMenuName]}" onto public boolean cc.mrbird.web.controller.system.MenuController.checkMenuName(java.lang.String,java.lang.String,java.lang.String)
+17:00:40.032 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu/add]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.MenuController.addMenu(cc.mrbird.system.domain.Menu)
+17:00:40.033 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu/delete]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.MenuController.deleteMenus(java.lang.String)
+17:00:40.033 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu/csv]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.MenuController.menuCsv(cc.mrbird.system.domain.Menu)
+17:00:40.033 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu/urlList],methods=[GET]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.String>> cc.mrbird.web.controller.system.MenuController.getAllUrl()
+17:00:40.034 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu/update]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.MenuController.updateMenu(cc.mrbird.system.domain.Menu)
+17:00:40.034 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu/excel]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.MenuController.menuExcel(cc.mrbird.system.domain.Menu)
+17:00:40.035 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/role]}" onto public java.lang.String cc.mrbird.web.controller.system.RoleController.index()
+17:00:40.035 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/role/getRole]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.RoleController.getRole(java.lang.Long)
+17:00:40.036 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/role/add]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.RoleController.addRole(cc.mrbird.system.domain.Role,java.lang.Long[])
+17:00:40.036 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/role/update]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.RoleController.updateRole(cc.mrbird.system.domain.Role,java.lang.Long[])
+17:00:40.036 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/role/excel]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.RoleController.roleExcel(cc.mrbird.system.domain.Role)
+17:00:40.036 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/role/csv]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.RoleController.roleCsv(cc.mrbird.system.domain.Role)
+17:00:40.037 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/role/delete]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.RoleController.deleteRoles(java.lang.String)
+17:00:40.037 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/role/checkRoleName]}" onto public boolean cc.mrbird.web.controller.system.RoleController.checkRoleName(java.lang.String,java.lang.String)
+17:00:40.037 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/role/list]}" onto public java.util.Map<java.lang.String, java.lang.Object> cc.mrbird.web.controller.system.RoleController.roleList(cc.mrbird.common.domain.QueryRequest,cc.mrbird.system.domain.Role)
+17:00:40.039 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user]}" onto public java.lang.String cc.mrbird.web.controller.system.UserController.index(org.springframework.ui.Model)
+17:00:40.040 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.UserController.addUser(cc.mrbird.system.domain.MyUser,java.lang.Long[])
+17:00:40.040 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/updateUserProfile]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.UserController.updateUserProfile(cc.mrbird.system.domain.MyUser)
+17:00:40.040 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/getUser]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.UserController.getUser(java.lang.Long)
+17:00:40.040 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.UserController.updateUser(cc.mrbird.system.domain.MyUser,java.lang.Long[])
+17:00:40.041 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/regist]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.UserController.regist(cc.mrbird.system.domain.MyUser)
+17:00:40.042 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.Map<java.lang.String, java.lang.Object> cc.mrbird.web.controller.system.UserController.userList(cc.mrbird.common.domain.QueryRequest,cc.mrbird.system.domain.MyUser)
+17:00:40.042 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/theme]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.UserController.updateTheme(cc.mrbird.system.domain.MyUser)
+17:00:40.042 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/checkUserName]}" onto public boolean cc.mrbird.web.controller.system.UserController.checkUserName(java.lang.String,java.lang.String)
+17:00:40.043 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.UserController.deleteUsers(java.lang.String)
+17:00:40.043 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/excel]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.UserController.userExcel(cc.mrbird.system.domain.MyUser)
+17:00:40.043 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/csv]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.UserController.userCsv(cc.mrbird.system.domain.MyUser)
+17:00:40.044 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/getUserProfile]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.UserController.getUserProfile(java.lang.Long)
+17:00:40.044 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/profile]}" onto public java.lang.String cc.mrbird.web.controller.system.UserController.profileIndex(org.springframework.ui.Model)
+17:00:40.044 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/changeAvatar]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.UserController.changeAvatar(java.lang.String)
+17:00:40.045 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/updatePassword]}" onto public cc.mrbird.common.domain.ResponseBo cc.mrbird.web.controller.system.UserController.updatePassword(java.lang.String)
+17:00:40.045 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/checkPassword]}" onto public boolean cc.mrbird.web.controller.system.UserController.checkPassword(java.lang.String)
+17:00:40.046 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test],methods=[GET]}" onto public int cc.mrbird.web.controller.test.TestController.testLimiter()
+17:00:40.056 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[POST]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.connect(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+17:00:40.058 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[error]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+17:00:40.058 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnections(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+17:00:40.059 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[oauth_token]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+17:00:40.059 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/connect],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+17:00:40.059 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(java.lang.String,org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+17:00:40.060 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[code]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+17:00:40.060 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}/{providerUserId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnection(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+17:00:40.062 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:00:40.063 sms [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:00:40.131 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:00:40.131 sms [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:00:40.160 sms [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalExceptionHandler
+17:00:40.365 sms [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+17:00:41.584 sms [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44abdb1f, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fe2dd02, org.springframework.security.web.header.HeaderWriterFilter@cdbe995, org.springframework.security.web.authentication.logout.LogoutFilter@ec5f944, org.springframework.social.security.SocialAuthenticationFilter@5408d4b3, cc.mrbird.security.code.sms.SmsCodeFilter@62108cd3, cc.mrbird.security.code.img.ImageCodeFilter@7cd1ec54, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3973b6d4, cc.mrbird.security.code.sms.SmsCodeAuthenticationFilter@77ab5214, org.springframework.security.web.session.ConcurrentSessionFilter@6003220a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5817f1ca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19faedcc, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2e7bb00e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d420cdd, org.springframework.security.web.session.SessionManagementFilter@374b6e33, org.springframework.security.web.access.ExceptionTranslationFilter@166ce247, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a345298]
+17:00:42.386 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:00:42.389 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+17:00:42.398 sms [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+17:00:42.407 sms [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+17:00:42.407 sms [main] INFO  o.s.s.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [MyScheduler] in 1 seconds
+17:00:42.424 sms [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+17:00:42.437 sms [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+17:00:42.452 sms [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:00:42.480 sms [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+17:00:42.486 sms [main] INFO  cc.mrbird.FebsApplication - Started FebsApplication in 12.353 seconds (JVM running for 12.932)
+17:00:42.493 sms [main] INFO  cc.mrbird.FebsApplication - 《《《《《《 FEBS started up successfully at 2019-09-23 17:00:42.493 》》》》》》
+17:00:43.408 sms [Quartz Scheduler [MyScheduler]] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+17:00:43.450 sms [Quartz Scheduler [MyScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler MyScheduler_$_LAPTOP-OI23LKGJ1569229237696 started.
+17:02:02.327 sms [http-nio-80-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+17:02:02.327 sms [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+17:02:02.357 sms [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+17:03:55.097 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.UserMapper.selectByExample
+17:03:55.097 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 29 ms
+17:03:55.097 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT USER_ID,USERNAME,PASSWORD,DEPT_ID,EMAIL,MOBILE,STATUS,CRATE_TIME,MODIFY_TIME,LAST_LOGIN_TIME,SSEX,THEME,AVATAR,DESCRIPTION FROM t_user WHERE ( lower(username)= 'mrbird' )
+17:03:55.156 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.MenuMapper.findUserPermissions
+17:03:55.157 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 53 ms
+17:03:55.157 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> select m.perms from t_role r left join t_user_role ur on(r.role_id = ur.role_id) left join t_user u on(u.user_id = ur.user_id) left join t_role_menu rm on(rm.role_id = r.role_id) left join t_menu m on(m.menu_id = rm.menu_id ) where u.username = 'mrbird' and m.perms is not null and m.perms <> ''
+17:03:55.734 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.MenuMapper.findUserMenus
+17:03:55.734 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 9 ms
+17:03:55.734 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> select m.* from t_menu m where m.type <> 1 and m.MENU_ID in (select distinct rm.menu_id from t_role_menu rm left join t_role r on(rm.role_id = r.role_id) left join t_user_role ur on(ur.role_id = r.role_id) left join t_user u on (u.user_id = ur.user_id) where u.username = 'mrbird') order by m.create_time
+17:03:58.824 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.DeptMapper.selectByExample
+17:03:58.824 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 20 ms
+17:03:58.824 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT DEPT_ID,PARENT_ID,DEPT_NAME,ORDER_NUM,CREATE_TIME FROM t_dept order by dept_id
+17:03:58.877 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.RoleMapper.selectByExample_COUNT
+17:03:58.877 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:03:58.877 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ROLE_ID,ROLE_NAME,REMARK,CREATE_TIME,MODIFY_TIME FROM t_role order by create_time
+17:03:58.879 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.UserMapper.findUserWithDept_COUNT
+17:03:58.879 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:03:58.879 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.RoleMapper.selectByExample
+17:03:58.879 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> select u.user_id userId,u.username,u.email,u.mobile,u.status,u.crate_time crateTime, u.ssex,u.theme,u.avatar,d.dept_name deptName from t_user u left join t_dept d on(u.dept_id = d.dept_id) where 1=1 order by u.user_id
+17:03:58.879 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 1 ms
+17:03:58.879 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ROLE_ID,ROLE_NAME,REMARK,CREATE_TIME,MODIFY_TIME FROM t_role order by create_time
+17:03:58.882 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.UserMapper.findUserWithDept
+17:03:58.883 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:03:58.883 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> select u.user_id userId,u.username,u.email,u.mobile,u.status,u.crate_time crateTime, u.ssex,u.theme,u.avatar,d.dept_name deptName from t_user u left join t_dept d on(u.dept_id = d.dept_id) where 1=1 order by u.user_id
+17:03:58.959 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:03:58.959 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 18 ms
+17:03:58.959 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 1,'mrbird','获取用户信息',22,'cc.mrbird.web.controller.system.UserController.userList()','request: "QueryRequest{pageSize=10, pageNum=1}"  user: "MyUser{userId=null, username='', password='null', deptId=null, deptName='null', email='null', mobile='null', status='', crateTime=null, modifyTime=null, lastLoginTime=null, ssex='', theme='null', avatar='null', description='null', roleName='null'}"','127.0.0.1','2019-9-23 17:03:58','' )
+17:03:59.483 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:03:59.483 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 5 ms
+17:03:59.483 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 2,'mrbird','获取角色信息',0,'cc.mrbird.web.controller.system.RoleController.index()','','127.0.0.1','2019-9-23 17:03:59','' )
+17:03:59.532 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.MenuMapper.selectByExample
+17:03:59.532 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 9 ms
+17:03:59.532 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT MENU_ID,PARENT_ID,MENU_NAME,URL,PERMS,ICON,TYPE,ORDER_NUM,CREATE_TIME,MODIFY_TIME FROM t_menu order by menu_id
+17:03:59.553 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.RoleMapper.selectByExample_COUNT
+17:03:59.554 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 1 ms
+17:03:59.554 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ROLE_ID,ROLE_NAME,REMARK,CREATE_TIME,MODIFY_TIME FROM t_role order by create_time
+17:03:59.557 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.RoleMapper.selectByExample
+17:03:59.557 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:03:59.558 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ROLE_ID,ROLE_NAME,REMARK,CREATE_TIME,MODIFY_TIME FROM t_role order by create_time
+17:04:00.212 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.MenuMapper.selectByExample
+17:04:00.212 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 4 ms
+17:04:00.212 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT MENU_ID,PARENT_ID,MENU_NAME,URL,PERMS,ICON,TYPE,ORDER_NUM,CREATE_TIME,MODIFY_TIME FROM t_menu WHERE ( type = 0 ) order by create_time
+17:04:00.241 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.MenuMapper.selectByExample
+17:04:00.241 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 6 ms
+17:04:00.241 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT MENU_ID,PARENT_ID,MENU_NAME,URL,PERMS,ICON,TYPE,ORDER_NUM,CREATE_TIME,MODIFY_TIME FROM t_menu order by menu_id
+17:04:00.282 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:00.282 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 6 ms
+17:04:00.282 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 3,'mrbird','获取系统所有URL',14,'cc.mrbird.web.controller.system.MenuController.getAllUrl()','','127.0.0.1','2019-9-23 17:04:00','' )
+17:04:00.704 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:00.704 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 3 ms
+17:04:00.705 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 4,'mrbird','获取部门信息',0,'cc.mrbird.web.controller.system.DeptController.index()','','127.0.0.1','2019-9-23 17:04:00','' )
+17:04:00.778 sms [http-nio-80-exec-2] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.DeptMapper.selectByExample
+17:04:00.778 sms [http-nio-80-exec-2] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:00.778 sms [http-nio-80-exec-2] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT DEPT_ID,PARENT_ID,DEPT_NAME,ORDER_NUM,CREATE_TIME FROM t_dept order by dept_id
+17:04:00.802 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.DeptMapper.selectByExample
+17:04:00.802 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 3 ms
+17:04:00.802 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT DEPT_ID,PARENT_ID,DEPT_NAME,ORDER_NUM,CREATE_TIME FROM t_dept order by dept_id
+17:04:01.188 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:01.189 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 3 ms
+17:04:01.189 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 5,'mrbird','获取字典信息',5,'cc.mrbird.web.controller.system.DictController.index()','','127.0.0.1','2019-9-23 17:04:01','' )
+17:04:01.285 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.DictMapper.selectByExample_COUNT
+17:04:01.285 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 12 ms
+17:04:01.285 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT DICT_ID,KEYY,VALUEE,TABLE_NAME,FIELD_NAME FROM t_dict order by dict_id
+17:04:01.287 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.DictMapper.selectByExample
+17:04:01.288 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 1 ms
+17:04:01.288 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT DICT_ID,KEYY,VALUEE,TABLE_NAME,FIELD_NAME FROM t_dict order by dict_id
+17:04:02.797 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:02.797 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 12 ms
+17:04:02.797 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 6,'mrbird','获取在线用户信息',5,'cc.mrbird.web.controller.security.SessionController.online()','','127.0.0.1','2019-9-23 17:04:02','' )
+17:04:03.310 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.selectByExample_COUNT
+17:04:03.311 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:03.311 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION FROM t_log order by create_time desc
+17:04:03.313 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.selectByExample
+17:04:03.313 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 1 ms
+17:04:03.314 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION FROM t_log order by create_time desc
+17:04:10.218 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:10.219 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 12 ms
+17:04:10.219 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 7,'mrbird','获取天气信息',3,'cc.mrbird.web.controller.others.WeatherController.weather()','','127.0.0.1','2019-9-23 17:04:10','' )
+17:04:10.914 sms [http-nio-80-exec-8] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:10.914 sms [http-nio-80-exec-8] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:10.914 sms [http-nio-80-exec-8] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 8,'mrbird','获取每日一文信息',4,'cc.mrbird.web.controller.others.ArticleController.index()','','127.0.0.1','2019-9-23 17:04:10','' )
+17:04:13.671 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:13.671 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 3 ms
+17:04:13.671 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 9,'mrbird','获取定时任务信息',5,'cc.mrbird.web.controller.quartz.JobController.index()','','127.0.0.1','2019-9-23 17:04:13','' )
+17:04:13.775 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.quartz.dao.JobMapper.selectByExample_COUNT
+17:04:13.776 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 18 ms
+17:04:13.776 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job order by job_id
+17:04:13.780 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.quartz.dao.JobMapper.selectByExample
+17:04:13.780 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 3 ms
+17:04:13.780 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job order by job_id
+17:04:13.849 sms [http-nio-80-exec-9] INFO  org.reflections.Reflections - Reflections took 40 ms to scan 1 urls, producing 1 keys and 1 values 
+17:04:14.363 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:14.363 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 3 ms
+17:04:14.363 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 10,'mrbird','获取调度日志信息',5,'cc.mrbird.web.controller.quartz.JobLogController.index()','','127.0.0.1','2019-9-23 17:04:14','' )
+17:04:14.433 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.quartz.dao.JobLogMapper.selectByExample_COUNT
+17:04:14.433 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 10 ms
+17:04:14.433 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT LOG_ID,JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,STATUS,ERROR,TIMES,CREATE_TIME FROM t_job_log order by log_id desc
+17:04:14.438 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.quartz.dao.JobLogMapper.selectByExample
+17:04:14.438 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 4 ms
+17:04:14.438 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT LOG_ID,JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,STATUS,ERROR,TIMES,CREATE_TIME FROM t_job_log order by log_id desc
+17:04:15.415 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:15.415 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 11 ms
+17:04:15.415 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 11,'mrbird','获取定时任务信息',0,'cc.mrbird.web.controller.quartz.JobController.index()','','127.0.0.1','2019-9-23 17:04:15','' )
+17:04:15.481 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.quartz.dao.JobMapper.selectByExample_COUNT
+17:04:15.481 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 3 ms
+17:04:15.481 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job order by job_id
+17:04:15.484 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.quartz.dao.JobMapper.selectByExample
+17:04:15.484 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:15.484 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT JOB_ID,BEAN_NAME,METHOD_NAME,PARAMS,CRON_EXPRESSION,STATUS,REMARK,CREATE_TIME FROM t_job order by job_id
+17:04:18.374 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.RoleMapper.selectByExample_COUNT
+17:04:18.374 sms [http-nio-80-exec-2] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.DeptMapper.selectByExample
+17:04:18.374 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 1 ms
+17:04:18.374 sms [http-nio-80-exec-2] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:18.374 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ROLE_ID,ROLE_NAME,REMARK,CREATE_TIME,MODIFY_TIME FROM t_role order by create_time
+17:04:18.374 sms [http-nio-80-exec-2] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT DEPT_ID,PARENT_ID,DEPT_NAME,ORDER_NUM,CREATE_TIME FROM t_dept order by dept_id
+17:04:18.375 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.RoleMapper.selectByExample
+17:04:18.375 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 1 ms
+17:04:18.376 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ROLE_ID,ROLE_NAME,REMARK,CREATE_TIME,MODIFY_TIME FROM t_role order by create_time
+17:04:18.396 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.UserMapper.findUserWithDept_COUNT
+17:04:18.396 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 1 ms
+17:04:18.397 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> select u.user_id userId,u.username,u.email,u.mobile,u.status,u.crate_time crateTime, u.ssex,u.theme,u.avatar,d.dept_name deptName from t_user u left join t_dept d on(u.dept_id = d.dept_id) where 1=1 order by u.user_id
+17:04:18.399 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.UserMapper.findUserWithDept
+17:04:18.399 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:18.399 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> select u.user_id userId,u.username,u.email,u.mobile,u.status,u.crate_time crateTime, u.ssex,u.theme,u.avatar,d.dept_name deptName from t_user u left join t_dept d on(u.dept_id = d.dept_id) where 1=1 order by u.user_id
+17:04:18.407 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:18.407 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:18.407 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 12,'mrbird','获取用户信息',7,'cc.mrbird.web.controller.system.UserController.userList()','request: "QueryRequest{pageSize=10, pageNum=1}"  user: "MyUser{userId=null, username='', password='null', deptId=null, deptName='null', email='null', mobile='null', status='', crateTime=null, modifyTime=null, lastLoginTime=null, ssex='', theme='null', avatar='null', description='null', roleName='null'}"','127.0.0.1','2019-9-23 17:04:18','' )
+17:04:19.930 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.RoleMapper.selectByExample_COUNT
+17:04:19.930 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.DeptMapper.selectByExample
+17:04:19.930 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 1 ms
+17:04:19.930 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:19.930 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ROLE_ID,ROLE_NAME,REMARK,CREATE_TIME,MODIFY_TIME FROM t_role order by create_time
+17:04:19.930 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT DEPT_ID,PARENT_ID,DEPT_NAME,ORDER_NUM,CREATE_TIME FROM t_dept order by dept_id
+17:04:19.932 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.RoleMapper.selectByExample
+17:04:19.932 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:19.932 sms [http-nio-80-exec-1] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ROLE_ID,ROLE_NAME,REMARK,CREATE_TIME,MODIFY_TIME FROM t_role order by create_time
+17:04:19.951 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.UserMapper.findUserWithDept_COUNT
+17:04:19.951 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 1 ms
+17:04:19.951 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> select u.user_id userId,u.username,u.email,u.mobile,u.status,u.crate_time crateTime, u.ssex,u.theme,u.avatar,d.dept_name deptName from t_user u left join t_dept d on(u.dept_id = d.dept_id) where 1=1 order by u.user_id
+17:04:19.954 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.UserMapper.findUserWithDept
+17:04:19.954 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 1 ms
+17:04:19.954 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> select u.user_id userId,u.username,u.email,u.mobile,u.status,u.crate_time crateTime, u.ssex,u.theme,u.avatar,d.dept_name deptName from t_user u left join t_dept d on(u.dept_id = d.dept_id) where 1=1 order by u.user_id
+17:04:19.961 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:19.961 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 3 ms
+17:04:19.961 sms [http-nio-80-exec-3] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 13,'mrbird','获取用户信息',6,'cc.mrbird.web.controller.system.UserController.userList()','request: "QueryRequest{pageSize=10, pageNum=1}"  user: "MyUser{userId=null, username='', password='null', deptId=null, deptName='null', email='null', mobile='null', status='', crateTime=null, modifyTime=null, lastLoginTime=null, ssex='', theme='null', avatar='null', description='null', roleName='null'}"','127.0.0.1','2019-9-23 17:04:19','' )
+17:04:20.348 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:20.348 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 11 ms
+17:04:20.348 sms [http-nio-80-exec-9] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 14,'mrbird','获取角色信息',0,'cc.mrbird.web.controller.system.RoleController.index()','','127.0.0.1','2019-9-23 17:04:20','' )
+17:04:20.380 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.MenuMapper.selectByExample
+17:04:20.380 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 4 ms
+17:04:20.380 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT MENU_ID,PARENT_ID,MENU_NAME,URL,PERMS,ICON,TYPE,ORDER_NUM,CREATE_TIME,MODIFY_TIME FROM t_menu order by menu_id
+17:04:20.399 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.RoleMapper.selectByExample_COUNT
+17:04:20.399 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 1 ms
+17:04:20.399 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ROLE_ID,ROLE_NAME,REMARK,CREATE_TIME,MODIFY_TIME FROM t_role order by create_time
+17:04:20.401 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.RoleMapper.selectByExample
+17:04:20.402 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:20.402 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ROLE_ID,ROLE_NAME,REMARK,CREATE_TIME,MODIFY_TIME FROM t_role order by create_time
+17:04:21.521 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.RoleMapper.selectByExample_COUNT
+17:04:21.521 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.DeptMapper.selectByExample
+17:04:21.521 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:21.521 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:21.521 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ROLE_ID,ROLE_NAME,REMARK,CREATE_TIME,MODIFY_TIME FROM t_role order by create_time
+17:04:21.521 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT DEPT_ID,PARENT_ID,DEPT_NAME,ORDER_NUM,CREATE_TIME FROM t_dept order by dept_id
+17:04:21.523 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.RoleMapper.selectByExample
+17:04:21.523 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:21.523 sms [http-nio-80-exec-6] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT ROLE_ID,ROLE_NAME,REMARK,CREATE_TIME,MODIFY_TIME FROM t_role order by create_time
+17:04:21.546 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.UserMapper.findUserWithDept_COUNT
+17:04:21.546 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 1 ms
+17:04:21.546 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> select u.user_id userId,u.username,u.email,u.mobile,u.status,u.crate_time crateTime, u.ssex,u.theme,u.avatar,d.dept_name deptName from t_user u left join t_dept d on(u.dept_id = d.dept_id) where 1=1 order by u.user_id
+17:04:21.548 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.UserMapper.findUserWithDept
+17:04:21.548 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:21.548 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> select u.user_id userId,u.username,u.email,u.mobile,u.status,u.crate_time crateTime, u.ssex,u.theme,u.avatar,d.dept_name deptName from t_user u left join t_dept d on(u.dept_id = d.dept_id) where 1=1 order by u.user_id
+17:04:21.564 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:21.565 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 11 ms
+17:04:21.565 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 15,'mrbird','获取用户信息',5,'cc.mrbird.web.controller.system.UserController.userList()','request: "QueryRequest{pageSize=10, pageNum=1}"  user: "MyUser{userId=null, username='', password='null', deptId=null, deptName='null', email='null', mobile='null', status='', crateTime=null, modifyTime=null, lastLoginTime=null, ssex='', theme='null', avatar='null', description='null', roleName='null'}"','127.0.0.1','2019-9-23 17:04:21','' )
+17:04:22.096 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.MenuMapper.selectByExample
+17:04:22.096 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 3 ms
+17:04:22.096 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT MENU_ID,PARENT_ID,MENU_NAME,URL,PERMS,ICON,TYPE,ORDER_NUM,CREATE_TIME,MODIFY_TIME FROM t_menu WHERE ( type = 0 ) order by create_time
+17:04:22.120 sms [http-nio-80-exec-2] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.MenuMapper.selectByExample
+17:04:22.120 sms [http-nio-80-exec-2] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 4 ms
+17:04:22.120 sms [http-nio-80-exec-2] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT MENU_ID,PARENT_ID,MENU_NAME,URL,PERMS,ICON,TYPE,ORDER_NUM,CREATE_TIME,MODIFY_TIME FROM t_menu order by menu_id
+17:04:22.149 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:22.149 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 3 ms
+17:04:22.149 sms [http-nio-80-exec-5] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 16,'mrbird','获取系统所有URL',1,'cc.mrbird.web.controller.system.MenuController.getAllUrl()','','127.0.0.1','2019-9-23 17:04:22','' )
+17:04:23.831 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:23.831 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 3 ms
+17:04:23.831 sms [http-nio-80-exec-10] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 17,'mrbird','获取部门信息',0,'cc.mrbird.web.controller.system.DeptController.index()','','127.0.0.1','2019-9-23 17:04:23','' )
+17:04:23.879 sms [http-nio-80-exec-8] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.DeptMapper.selectByExample
+17:04:23.879 sms [http-nio-80-exec-8] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 2 ms
+17:04:23.879 sms [http-nio-80-exec-8] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT DEPT_ID,PARENT_ID,DEPT_NAME,ORDER_NUM,CREATE_TIME FROM t_dept order by dept_id
+17:04:23.892 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.DeptMapper.selectByExample
+17:04:23.892 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 1 ms
+17:04:23.892 sms [http-nio-80-exec-4] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT DEPT_ID,PARENT_ID,DEPT_NAME,ORDER_NUM,CREATE_TIME FROM t_dept order by dept_id
+17:04:24.303 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句Id】>>>> cc.mrbird.system.dao.LogMapper.insert
+17:04:24.303 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 7 ms
+17:04:24.303 sms [http-nio-80-exec-7] INFO  c.m.c.i.SqlStatementInterceptor - 【SQL语句】>>>> INSERT INTO t_log ( ID,USERNAME,OPERATION,TIME,METHOD,PARAMS,IP,CREATE_TIME,LOCATION ) VALUES( 18,'mrbird','获取字典信息',0,'cc.mrbird.web.controller.system.DictController.index()','','127.0.0.1','2019-9-23 17:04:24','' )

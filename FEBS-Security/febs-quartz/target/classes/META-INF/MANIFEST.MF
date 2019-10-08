@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: febs-quartz
+Implementation-Version: 1.0
+Built-By: llf5
+Implementation-Vendor-Id: cc.mrbird
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/febs/febs-quartz
+Created-By: Maven Integration for Eclipse
+
